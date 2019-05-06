@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedLib", "Gettin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "GettingStartedHost\GettingStartedHost.csproj", "{A81C8CE9-4D7B-45C6-852D-35B04BAE8887}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{BE815E7D-F858-4464-9F9B-FD9D95CF7956}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FACEBC6C-32FF-4070-85ED-9D8D57FB6F1E} = {FACEBC6C-32FF-4070-85ED-9D8D57FB6F1E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{A81C8CE9-4D7B-45C6-852D-35B04BAE8887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A81C8CE9-4D7B-45C6-852D-35B04BAE8887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A81C8CE9-4D7B-45C6-852D-35B04BAE8887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE815E7D-F858-4464-9F9B-FD9D95CF7956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE815E7D-F858-4464-9F9B-FD9D95CF7956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE815E7D-F858-4464-9F9B-FD9D95CF7956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE815E7D-F858-4464-9F9B-FD9D95CF7956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
